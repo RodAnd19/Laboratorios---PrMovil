@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="app_name_principal">BMI</string>
+    <string name="text_weight">Weight</string>
+    <string name="text_height">Height</string>
+    <string name="text_height_cm">cm</string>
+    <string name="btn_text">CALCULATE</string>
+    <string name="text_weight_kg">Kg</string>
+    <string name="text_hint_weight">Ingresa tu peso</string>
+    <string name="text_hint_height">Ingresa tu altura</string>
+    <string name="result_number_text">21.78</string>
+    <string name="condition_result_text">Healthy</string>
+    <string name="range_result_text">(Normal range is 18.5 - 24.9)</string>
+    <dimen name="small_dimension">8dp</dimen>
+    <dimen name="medium_dimension">16dp</dimen>
+    <dimen name="big_dimension">32dp</dimen>
+</resources>
