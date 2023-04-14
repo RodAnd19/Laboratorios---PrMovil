@@ -26,8 +26,8 @@ class SecondActivity : AppCompatActivity() {
 
         // Mostrar valores en los Text View
         nameTextView.text = "Nombre: $showNameText"
-        emailTextView.text = "Nombre: $showEmailText"
-        numberTextView.text = "Nombre: $showNumberText"
+        emailTextView.text = "Correo electrónico: $showEmailText"
+        numberTextView.text = "Número: $showNumberText"
 
         // COMPARTIR INFORMACIÓN
         shareButton.setOnClickListener {
