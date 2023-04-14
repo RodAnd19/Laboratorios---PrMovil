@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab 04</string>
+    <string name="number_hint">Número de teléfono</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="name_hint">Nombre</string>
+    <string name="save_button_text">GUARDAR</string>
+    <string name="context_text_view">Rellena la siguiente información</string>
+    <string name="confirm_text_view">Confirma tu información</string>
+    <string name="name_text_view">Nombre</string>
+    <string name="email_text_view">Correo electrónico</string>
+    <string name="number_text_view">Número de teléfono</string>
+    <string name="share_button">Compartir</string>
+</resources>
