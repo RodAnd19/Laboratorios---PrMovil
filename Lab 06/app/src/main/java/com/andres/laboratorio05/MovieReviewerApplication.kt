@@ -6,7 +6,7 @@ import com.andres.laboratorio05.repositories.MovieRepository
 
 class MovieReviewerApplication : Application() {
 
-    val movieRepository: MovieRepository by lazy {
+    val movieRepository : MovieRepository by lazy {
         MovieRepository(movies)
     }
 }

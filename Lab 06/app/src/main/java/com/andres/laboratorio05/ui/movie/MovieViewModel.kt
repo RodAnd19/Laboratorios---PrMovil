@@ -1,5 +1,6 @@
 package com.andres.laboratorio05.ui.movie
 
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
 import androidx.lifecycle.viewmodel.initializer
@@ -9,8 +10,10 @@ import com.andres.laboratorio05.data.model.MovieModel
 import com.andres.laboratorio05.repositories.MovieRepository
 
 class MovieViewModel (private val repository: MovieRepository) : ViewModel() {
+    
 
     fun getMovies() = repository.getMovies()
+
     fun addMovies(movie: MovieModel) = repository.addMovies(movie)
 
     companion object {

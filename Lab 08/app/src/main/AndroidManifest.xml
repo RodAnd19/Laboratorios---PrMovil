@@ -8,7 +8,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="Laboratorio 07"
+        android:label="Laboratorio 08"
         android:supportsRtl="true"
         android:theme="@style/Theme.Laboratorio03"
         tools:targetApi="31">
